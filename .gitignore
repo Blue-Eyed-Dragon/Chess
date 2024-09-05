@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/Chessplusplus/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Debug
+/.vs/Chess
+/.vs
+/.vscode
