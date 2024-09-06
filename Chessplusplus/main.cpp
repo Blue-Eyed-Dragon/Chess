@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     // Call Chess board code
     MainWindow w;
     w.setWindowTitle("Chess Board");
-    w.resize(200, 200);
+    w.resize(1080, 900);
     w.show();
     return a.exec();
 }

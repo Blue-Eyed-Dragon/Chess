@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QResizeEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,5 +21,8 @@ public:
 private:
     Ui::MainWindow *ui;
     void CreateGraphicalBoard(void);
+
+    QWidget *centralWidget; // Board that will contain the squares
+
 };
 #endif // MAINWINDOW_H
